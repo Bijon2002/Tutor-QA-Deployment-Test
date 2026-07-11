@@ -1,4 +1,4 @@
-# 🌌 AetherQuiz AI — PDF-to-Interactive Quiz Generator
+# 🌌 AI — PDF-to-Interactive Quiz Generator
 
 [![Framework](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61dafb?style=for-the-badge&logo=react)](https://react.dev)
 [![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)

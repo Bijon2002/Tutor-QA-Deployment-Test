@@ -32,7 +32,7 @@ function App() {
   const [step, setStep] = useState(0);
 
   // App Settings States
-  const [backendUrl, setBackendUrl] = useState('http://localhost:8000');
+  const [backendUrl, setBackendUrl] = useState('https://tutor-qa-deployment-test.onrender.com');
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isApiOnline, setIsApiOnline] = useState(null);
   const [groqConfigured, setGroqConfigured] = useState(false);
@@ -457,7 +457,7 @@ function App() {
                           value={backendUrl}
                           onChange={(e) => setBackendUrl(e.target.value)}
                           className="text-input" 
-                          placeholder="http://localhost:8000"
+                          placeholder="https://tutor-qa-deployment-test.onrender.com"
                         />
                       </div>
                       {!groqConfigured && isApiOnline && (

@@ -4,7 +4,11 @@ import fitz  # PyMuPDF
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
+from dotenv import load_dotenv
 from groq import Groq
+
+# Load local environment variables from .env if present
+load_dotenv()
 
 app = FastAPI(title="PDF Quiz Generator")
 
